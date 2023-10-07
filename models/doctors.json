@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "location": "San Francisco",
+      "speciality": "General Medicine",
+      "available_evenings": ["Monday", "Wednesday", "Friday"],
+      "current_patients": 0,
+      "next_available_appointment": "2023-10-04T18:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jones",
+      "location": "San Jose",
+      "speciality": "Pediatrics",
+      "available_evenings": ["Tuesday", "Thursday"],
+      "current_patients": 1,
+      "next_available_appointment": "2023-10-05T18:00:00Z"
+    }
+  ]
+  

@@ -1,0 +1,41 @@
+GET http://localhost:3000/doctors
+
+
+
+
+###
+GET http://localhost:3000/doctors/1
+
+
+###
+POST  http://localhost:3000/doctors
+Content-Type: application/json
+
+{
+  "name": "Dr. Sith",
+  "speciality": "General Medicine",
+  "location": "San Francisco",
+  "schedule": {
+    "Monday": ["18:00", "19:00"],
+    "Wednesday": ["18:00", "19:00"],
+    "Friday": ["18:00", "19:00"]
+  }
+}
+
+
+
+###
+POST  http://localhost:3000/doctors
+Content-Type: application/json
+
+{
+  "name": "Dr. Smith",
+  "speciality": "General Medicine",
+  "location": "San Francisco",
+  "schedule": {
+    "Monday": ["18:00", "19:00"],
+    "Wednesday": ["18:00", "19:00"],
+    "Friday": ["18:00", "19:00"]
+  }
+  
+}
